@@ -1,5 +1,5 @@
-streamlit==1.49.1
-pymongo==4.14.1 # python integrated version of mongodb it save previous chathistory to mongodb
-pydantic==2.11.7 # to have some structured input and output
-pydantic-settings==2.10.1 # to properly provide configuration settings like env variable values
-python-dotenv==1.1.1 # To save env values to the enviornment variables
+streamlit
+pymongo # python integrated version of mongodb it save previous chathistory to mongodb
+pydantic # to have some structured input and output
+pydantic-settings # to properly provide configuration settings like env variable values
+python-dotenv # To save env values to the enviornment variables
