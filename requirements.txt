@@ -1,5 +1,15 @@
+# Frontend
 streamlit
+
+# Database
 pymongo # python integrated version of mongodb it save previous chathistory to mongodb
+
+# Config & environment
 pydantic # to have some structured input and output
-pydantic-settings # to properly provide configuration settings like env variable values
-python-dotenv # To save env values to the enviornment variables
+pydantic-settings # to properly provide configuration settings.py like env variable values
+python-dotenv  # To save env values to the enviornment variables
+
+# Hugging Face / LLMs
+transformers          # Load models like TinyLlama or Phi-2
+torch                 # Required backend for model inference
+accelerate            # Optional, speeds up CPU inference and device mapping

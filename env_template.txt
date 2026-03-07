@@ -1,2 +1,3 @@
 MONGO_DB_URL="mongodb://localhost:27017/"
 Mongo_DB_NAME="Chat_data"
+DEFAULT_MODEL= "TinyLlama"
